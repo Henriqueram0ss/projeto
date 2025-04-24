@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    
+}
+
+header{
+    background-color: #ccc;
+    padding: 15px;
+}
+
+.titulo{
+    font-size: bold;
+    padding: 18px;
+}
+
+.linha-azul{
+    height: 10px;
+    background-color: #00aaff;
+}
+
+.content {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.pesquisa{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.pesquisa input{
+    padding: 10px 35px 10px 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.icone-lupa{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.tabela{
+    display: inline-block;
+   
+}
+
+.linha{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    
+    
+}
+
+.celula{
+    border: 1px solid black;
+    padding: 10px 15px;
+    min-width: 100px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.botao button{
+    background-color: #d2ebf7;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold; 
+}
+.botao button:hover {
+    background-color: #a6d9f1;
+}
+
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
